@@ -3,7 +3,7 @@ name: E5-Rclone-Actions-Repo
 on:
   workflow_dispatch:
   schedule:
-    - cron: 14 0 4 * *
+    - cron: "0 22 1/2 * *"
 
 jobs:
   run-it:
